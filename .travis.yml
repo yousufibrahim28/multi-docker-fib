@@ -24,7 +24,7 @@ after_success:
   - docker push yousufibrahim28/multi-server
   - docker push yousufibrahim28/multi-worker
 
-  deploy:
+deploy:
   provider: elasticbeanstalk
   region: 'us-east-1'
   app: 'multi-docker'
